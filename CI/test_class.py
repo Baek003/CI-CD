@@ -1,4 +1,7 @@
 class TestClass:
+    """
+    doc test class
+    """
     def test_one(self):
         x = "this"
         assert "h" in x
