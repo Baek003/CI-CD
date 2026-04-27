@@ -2,7 +2,7 @@
 
 FROM python:3.10-slim
 
-COPY ./CI-CD/CD /app
+COPY ./CD /app
 
 WORKDIR /app
 
